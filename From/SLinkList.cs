@@ -125,11 +125,4 @@ namespace LinearList
             Length = 0;
         }
     }
-    public class SlinkList
-    {
-        static void Main(string[] args)
-        {
-
-        }
-    }
 }
