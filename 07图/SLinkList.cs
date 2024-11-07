@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01线性表
+namespace _07图
 {
-    public class SNode<T> where T : IComparable<T>
+    /*public class SNode<T> where T : IComparable<T>
     {
         public T Data { get; set; }
         public SNode<T> Next {  get; set; }
@@ -15,7 +15,7 @@ namespace _01线性表
             Data = data;
             Next = next;
         }
-    }
+    }*/
 
     public class SLinkList<T> : ILinearList<T> where T : IComparable<T>
     {

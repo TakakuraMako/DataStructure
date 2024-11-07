@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _01线性表
+namespace _09搜索
 {
     internal static class Program
     {

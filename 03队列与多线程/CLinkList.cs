@@ -4,8 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01线性表
+namespace _03队列与多线程
 {
+    public class SNode<T> where T : IComparable<T>
+    {
+        public T Data { get; set; }
+        public SNode<T> Next { get; set; }
+        public SNode(T data, SNode<T> next = null)
+        {
+            Data = data;
+            Next = next;
+        }
+    }
     public class CLinkList<T> : ILinearList<T> where T : IComparable<T>
     {
         public SNode<T> PRear { get; private set; }

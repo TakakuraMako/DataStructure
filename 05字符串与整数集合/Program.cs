@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _01线性表
+namespace _05字符串与整数集合
 {
-    internal static class Program
+    public static class Program
     {
         /// <summary>
         /// 应用程序的主入口点。

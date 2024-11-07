@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01线性表
+namespace _04数组与稀疏矩阵
 {
     public class DNode<T> where T : IComparable<T>
     {

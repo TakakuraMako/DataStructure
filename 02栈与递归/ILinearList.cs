@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01线性表
+namespace _02栈与递归
 {
     public interface ILinearList<T> where T : IComparable<T>
     {

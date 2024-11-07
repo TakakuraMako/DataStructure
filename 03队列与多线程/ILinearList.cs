@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01线性表
+namespace _03队列与多线程
 {
     public interface ILinearList<T> where T : IComparable<T>
     {
